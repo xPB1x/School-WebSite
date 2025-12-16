@@ -1,0 +1,234 @@
+.burger {
+    z-index: 3;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.burger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #9b4b4b;
+    border-radius: 2px;
+}
+
+.mobile_menu {
+    position: fixed;
+    top: 0;
+    right: -5000px;
+    width: 80vw;
+    height: 100%;
+    background-color: rgb(235, 215, 190);
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    transition: right 0.3s ease;
+    z-index: 1;
+}
+
+.mobile_menu a {
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 1px #aaa solid;
+}
+
+.mobile_menu.active {
+    right: 0;
+}
+
+@media (max-width: 1150px) {
+    html {
+        font-size: 14px;
+        width: 100vw;
+    }
+    main {
+        margin: 5px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .main_section {
+        width: 100%;
+        margin: 0;
+        padding: 5px 5px 30px 5px;
+    }
+
+    .main_article {
+        padding: 10px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .main_nav {
+        padding: 0 10px;
+    }
+    
+    .desktop_menu {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+    
+    .logo-img {
+        height: 60px;
+    }
+
+    header, .archieve_header, .achievements_header, .sign-up_header, .competitions_header {
+        width: 100%;
+        height: 33vh;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .head1, .head2, .head_competition {
+        width: 80vw;
+        padding: 5px;
+        position: absolute;
+        top: 20vh;
+        left: 0;
+    }
+    .head_achievements {
+        background-color: rgba(254, 134, 87, 0.8)
+    }
+
+    h2 {
+        background-color: #ffffff00;
+        color: #FE8657;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .competitions_header {
+        background-image: url("../images/goroh.jpg");
+        background-repeat: no-repeat;
+        background-position: 0 60px;
+    }
+
+    .competition_content {
+        margin-bottom: 15px;
+    }
+
+    .competition-logo {
+        align-content: flex-start;
+    }
+
+    .competition_description {
+        font-size: 14px;
+        padding: 0 0 0 10px;
+    }
+
+    .competition_buttons {
+        flex-direction: column;
+        padding-top: 10px;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .main_button, .second_button {
+        font-size: 14px;
+        padding: 8px 0; 
+        text-align: center;
+    }
+
+    .pagination {
+        margin-top: 30px;
+    }
+    .sponsors {
+        margin: 10px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer_description {
+        width: 90%;
+        margin: 20px;
+        margin-bottom: 0;
+    }
+    .footer_contacts {
+        margin: 20px;
+        margin-top: 0;
+    }
+    .accordion_body {
+        padding: 0;
+    }
+    .achievements_article {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .achievements_table {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .table_header {
+        font-size: 16px;
+    }
+    .achievements_table {
+        padding: 5px;
+        border-spacing: 0;
+    }
+    .achievements_table td, .achievements_table th {
+        padding: 5px;
+    }
+
+    .competition_content { 
+        margin: 0;
+    }
+
+    .competition_descButt .competition_buttons {
+        padding: 0px;
+        padding-top: 30px;
+    }
+
+    .second_line {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px
+    }
+    .competition_link {
+        width: 300px;
+    }
+
+    .main_article.archieve_article {
+        background-color: #FE8657;
+        padding: 0;
+    }
+    .accordion_header {
+        margin-bottom: 10px;
+        color: white;
+        padding: 0px;
+        margin: 0;
+    }
+    .accordion_body {
+        background-color: rgb(235, 215, 190);
+    }
+
+    .table_header.accordion_header {
+        color:#333;
+        padding: 10px;
+    }
+
+    .achievements_article > .accordion_body {
+        background-color: #fff;
+    }
+    .achievements_article:last-child {
+        margin: 0;
+    }
+}

@@ -1,0 +1,78 @@
+header {
+    width: 100%;
+    height: 90vh;
+    background-image: url("../images/group_photo.JPG");
+    background-size: cover;
+    background-position: 0 75%;
+}
+
+.archieve_header {
+    height: 60vh;
+    background-image: url("../images/cups.jpg");
+    background-position: 0 30%;
+}
+
+.achievements_header {
+    height: 60vh;
+    background-image: url("../images/medals.jpg");
+    background-position: 0 45%;
+}
+
+.sign-up_header {
+    height: 60vh;
+    background-image: url("../images/flags.jpg");
+    background-position: 0 45%;
+}
+
+.competitions_header {
+    height: 60vh;
+    background-image: url("../images/goroh.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 80px;
+}
+
+h1 {
+    font-family: "Montserrat bold";
+    margin: 0;
+}
+
+.head1 {
+    background-color: rgba(254, 134, 87, 0.8);
+    color: white;
+    position: absolute;
+    top: 60%;
+    right: 100px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.head2 {
+    background-color: rgba(254, 134, 87, 0.8);
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 100px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.head_achievements {
+    font-size: 30px;
+    top: 20%;
+    right: 100px;
+    background-color: #ffffff00;
+}
+
+.head_sign-up {
+    font-size: 30px;
+    top: 15%;
+    right: auto;
+    left:100px;
+}
+
+.head_competition {
+    font-size: 20px;
+    width: 800px;
+    top: 15%;
+    left: 100px;
+    right: auto;
+}
