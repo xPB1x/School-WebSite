@@ -44,11 +44,15 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 20px;
-    transition: all 0.3s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
 }
 
 .menu_item:hover {
+    background-color: #fff;
+    color: #FE8657;
+    border: #FE8657 solid 2px;
     padding: 15px 24px;
+    text-decoration: underline;
 }
 
 .logo-img {

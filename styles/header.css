@@ -45,6 +45,7 @@ h1 {
     border-radius: 10px;
     padding: 20px;
 }
+
 .head2 {
     background-color: rgba(254, 134, 87, 0.8);
     color: white;
@@ -54,6 +55,16 @@ h1 {
     border-radius: 10px;
     padding: 20px;
 }
+.head1, .head2 {
+    transition: all 0.2s ease 0s;
+}
+.head1:hover, .head2:hover {
+    padding: 25px;
+    background-color: #fff;
+    color: #FE8657;
+    border: #FE8657 solid 2px;
+}
+
 
 .head_achievements {
     font-size: 30px;

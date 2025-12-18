@@ -81,7 +81,19 @@ h2 {
     background-color: #FE8657;
     color: white;
     border-radius: 20px;
+} 
+
+.h2_link h2 {
+    transition: all 0.2s ease-in-out 0s;
 }
+
+.h2_link h2:hover {
+    text-decoration: underline;
+    padding: 15px;
+}
+
+
+
 
 .main_article {
     margin: 0 30px 30px;
@@ -150,7 +162,10 @@ h2 {
     color: white;
 }
 .main_button:hover {
-    background-color: #f6a582;
+    background-color: #fff;
+    color: #FE8657;
+    border: #FE8657 solid 2px;
+    padding: 12px 25px;
 }
 
 .second_button {
@@ -159,7 +174,9 @@ h2 {
     border: #FE8657 solid 2px;
 }
 .second_button:hover {
-    background-color: rgb(255, 237, 227);
+    background-color: #FE8657;
+    color: white;
+    padding: 12px 25px;
 }
 
 
@@ -192,6 +209,11 @@ h2 {
 
 .archieve_article h2 {
     padding: 20px;
+    transition: all 0.2s ease 0s;
+}
+.archieve_article h2:hover {
+    padding: 22px;
+    text-decoration: underline;
 }
 
 .achievements_article {
@@ -210,7 +232,14 @@ h2 {
     margin: 0;
     background-color: #fff;
     color:#514743;
+    transition: all 0.2s ease 0s;
 }
+.table_header:hover {
+    font-size: 28px;
+    padding: 25px;
+    text-decoration: underline;
+}
+
 .achievements_table {
     font-family: "Montserrat";
     font-weight: 700;
@@ -244,7 +273,6 @@ h2 {
 .achievements_table tbody tr:last-child td:last-child {
     border-radius: 0 0 10px 0;
 }
-
 
 
 .sign-up_h2 {
